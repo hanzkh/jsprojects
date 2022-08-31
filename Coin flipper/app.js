@@ -1,12 +1,7 @@
 const coin = [
   "Head",
   "Tails",
-  "Head",
-  "Tails",
-  "Head",
-  "Tails",
-  "Head",
-  "Tails",
+
 ];
 
 const button = document.querySelector("#btn");
