@@ -68,3 +68,26 @@ h2 {
 #btn:hover::before {
   width: 210px;
 }
+@media (max-width: 600px) {
+  #btn {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-weight: 600;
+    font-size: 1.2em;
+    border: 5px solid rgb(8, 37, 48);
+    margin-left: 25vw;
+    padding: 20px;
+    background-color: rgb(8, 37, 48);
+  }
+
+  #btn:hover {
+    color: white;
+  }
+  #btn::before {
+    display: none;
+  }
+
+  .result {
+    width: 350px;
+  }
+}
