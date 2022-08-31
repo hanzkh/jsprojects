@@ -104,3 +104,37 @@ span {
 #btn:hover::before {
   width: 143px;
 }
+@media (max-width: 600px) {
+  .header {
+    width: 100%;
+  }
+
+  .header-flex,
+  .nav {
+    flex-direction: column;
+  }
+
+  #btn {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-weight: 600;
+    font-size: 1.2em;
+    border: 5px solid rgb(8, 37, 48);
+    margin-left: 25vw;
+    padding: 20px;
+    background-color: rgb(8, 37, 48);
+  }
+
+  #btn:hover {
+    color: white;
+  }
+  #btn::before {
+    display: none;
+  }
+
+  .main-text {
+    width: 200px;
+    font-size: 0.5rem;
+  }
+}
+
